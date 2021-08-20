@@ -1,0 +1,52 @@
+@keyframes animate{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 350rem;
+    }
+}
+  .about{
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 2rem;
+    overflow-x: hidden;
+}
+
+.about .row .image img{
+    width: 30rem;
+    filter: drop-shadow(.5rem .5rem .5rem rgba(0,0,0,.3));
+}
+
+.about .row .content{
+    padding:1rem;
+}
+
+.about .row .content h3{
+    font-size: 3.5rem;
+    color:var(--red);
+}
+
+.about .row .content p{
+    font-size: 2rem;
+    color:#666;
+    padding:1rem 0;
+}
+
+.about .row .content .btn{
+    color:var(--red);
+    border-color: var(--red);
+    outline-color: var(--red);
+}
+
+.about .row .content .btn:hover{
+    color:rgb(109, 105, 105);
+}
+
+
